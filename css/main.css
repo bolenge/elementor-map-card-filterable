@@ -1,0 +1,99 @@
+.container-map-filter {
+	display: flex;
+	width: 100%;
+}
+
+.container-map-filter .col-form-filter-map {
+	width: 40%;
+}
+
+.container-map-filter .col-carte-map-filter {
+	width: 60%;
+}
+
+.container-map-filter .col-carte-map-filter #map {
+	height: 700px;
+}
+
+#containerFormMap {
+	display: flex;
+	padding: 0 50px;
+}
+
+#btnFilter{
+	text-transform: capitalize;
+	color: white;
+	border-radius: 0 3px 3px 0;
+	border-color: #333;
+	background-color: #22bb71;
+	border-color: #22bb71;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#btnFilter:hover{
+	border-color: #14462e;
+	background-color: #14462e;
+	transition: 0.45s linear;
+}
+
+#fieldFilter {
+	border-radius: 3px 0 0 3px;
+	border-color: #ddd;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#containerResult {
+	padding: 50px;
+	color:  #000;
+}
+
+.listResultContact {
+	list-style: none;
+	padding: 0 !important;
+}
+
+.listResultContact li i {
+	margin-right: 10px;
+	display: inline-block;
+	color: #14462e;
+}
+
+.titleResult {
+	color: #14462e;
+}
+
+.cardResult {
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	height: 600px;
+	overflow-y: auto;
+	position: relative;
+}
+
+.resultSearch {
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+	padding-bottom: 30px;
+	transition: .35s linear;
+	cursor: pointer;
+}
+
+.resultSearch:hover {
+	background-color: #ddd;
+}
+
+.resultSearch:last-child {
+	border-bottom: none;
+}
+
+.loader-data {
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+  	text-align: center;
+  	width: 100%;
+}
